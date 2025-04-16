@@ -1,5 +1,5 @@
 **Fields** are **reusable UI** components that consist of a name and a Field Type.  ^fields
-	A **field group** is a cluster of individual fields that, together, present related data inside a [[#^views]]. Field groups help to organise related values together under a single header and provide methods to add instructions or temporarily hide fields in collapsible Sections within a View.
+	A **field group** is a cluster of individual fields that, together, present related data inside a [[#^views]]. Field groups help to organise related values together under a single header and provide methods to add instructions or temporarily hide fields in collapsible Sections within a View. ^264c1a
 
 **Data Pages** retrieve data for the data object from a source and caches that information in memory. ^data-pages
 	Pega Platform automatically prepends the characters D_ to the name of a Data Page to differentiate the page from other pages in memory. 
@@ -7,20 +7,21 @@
 	2. The **Object Type** represented by the contents of the Data Page.
 	3. The **edit mode** supported by the page.
 	4. The **scope** of the Data Page.
-		![[Pasted image 20250416134659.png]]
+		![[Pasted image 20250416134659.png]] ^4ecbbe
 
 **Data Object**  are reusable building blocks that collect and organise [[#^fields]], [[#^data-pages]], [[#^views]], and other elements. -> **part of UI** ^data-object
 
 **Data Record** is a unique collection of [[#^fields]] and values that make up an instance of a [[#^data-object]]
- ![[Pasted image 20250416113849.png]]
-The **System of record** is an internal or external system that sources the data.
+ ![[Pasted image 20250416113849.png]] ^425e13
+
+The **System of record** is an internal or external system that sources the data. ^0faafe
 
 **Integration Map** is a diagram of the data objects, Cases, and systems of record in the application and where they are sourced.
 	![[Pasted image 20250416114201.png]]
 	
 In the **visual model** system fields **cannot** be edited
 	![[Pasted image 20250416114052.png]]
-	
+	 ^aabc14
 
 ![[Pasted image 20250416112540.png]]
 
@@ -72,6 +73,16 @@ If a **suitable data object does not exist** yet, **create** a new one. For exam
 If you must **combine data** from multiple sources to populate a Data Page, select the **Aggregate** sources option. 
 
  If a Data Page contains **more than one source**, configure a **logical Condition** for each source to test whether to query the data source.
+
+**Refer to the Data Page** when you always need the most current data from an external system or application.
+	![[Pasted image 20250416140203.png]]
+**Copy data from the Data Page** to a Case when you need data from a specific point in time.
+	![[Pasted image 20250416140234.png]]
+
+![[Pasted image 20250416140559.png]]
+
+![[Pasted image 20250416141151.png]]
+
 
 # Refresh strategies
 
