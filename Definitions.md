@@ -1,1 +1,1 @@
-low-code does not mean actualy getting to code.
+SOR - System of record i.e. a database
